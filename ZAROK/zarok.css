@@ -1,0 +1,287 @@
+/*                              REKLAM NUMBER                 */
+.REKLAM{
+  background-color: #E0DECA;
+  border-radius: 50px;
+  border: solid  #D6D5A8;
+  margin-top: 30px;
+}
+
+.TEXT-REKLAM {
+    position:relative;
+    transform: translate(0%,15%);
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+    -webkit-background-clip:text;
+    color: transparent;
+    background-size: cover;
+    background-image: url("https://media2.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.webp?cid=6c09b9524d6e8d3734663b8f3fd1a3953e4f70fde5e1a469&rid=giphy.webp&ct=g");
+
+}
+
+.NUMBER-REKLAM {
+    position:relative;
+    transform: translate(0%,15%);
+    font-weight: bolder;
+    font-size: 30px;
+    text-transform: uppercase;
+    -webkit-background-clip:text;
+    color: transparent;
+    background-size: cover;
+    background-image: url("https://media2.giphy.com/media/KVZWZQoS0yqfIiTAKq/giphy.webp?cid=6c09b9524d6e8d3734663b8f3fd1a3953e4f70fde5e1a469&rid=giphy.webp&ct=g");
+
+}
+
+/*                  REKLAM BOOK                */
+
+.REKLAM-BOOK{
+  margin-top: 20px;
+  background-color: #06283D;
+  border-radius: 25px;
+}
+
+.BOOK-IMAGE-REKLAM{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 400px;
+  border-radius: 25px;
+  border: solid grey;
+}
+
+.information-Bookshop{
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #51557E;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrap {
+  /TO MAKE THEM SLIDE FROM THE LEFT/ position: relative;
+  -webkit-animation: moving 1.2s 1 ease;
+  animation: moving 1.2s 1 ease;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+@-webkit-keyframes moving {
+  from {left: -100px;opacity: 0.2;}
+  to {left: 0px; opacity: 1;}
+}
+
+@keyframes moving {
+  from {left: -100px;opacity: 0.2;}
+  to {left: 0px; opacity: 1;}
+}
+
+.head {
+list-style: none;
+border: 0px solid coral;
+border-right-color: #5584AC;
+border-right-width: 20px;
+cursor:pointer;
+font-size: 1.4em;
+background: #f0f0f0;
+padding:10px 5px 10px 20px;
+margin:25px auto;
+font-family: Arial, Helvetica, sans-serif;
+-webkit-box-shadow: 3px 4px 8px #bbbbbb;
+        box-shadow: 3px 4px 8px #bbbbbb;
+border-radius: 10px 10px 10px 10px;
+-webkit-transition: all .35s;
+-o-transition: all .35s;
+transition: all .35s;
+}
+
+details[open] summary {
+ background:#5584AC;
+ -webkit-box-shadow: 0px 0px 0px #bbbbbb;
+         box-shadow: 0px 0px 0px #bbbbbb;
+ color: #ecf9f2;
+ -webkit-transition: all .35s;
+ -o-transition: all .35s;
+ transition: all .35s;
+ border-right-width: 0px;
+ border-bottom: 0px solid white;
+ border-radius: 10px 10px 10px 10px;
+}
+
+details[open]{
+ background:White;
+ -webkit-box-shadow:3px 4px 8px #bbbbbb;
+         box-shadow:3px 4px 8px #bbbbbb;
+ border-radius: 10px 10px 10px 10px;
+}
+
+.More-details{
+padding:0px 15px 20px 25px;
+font-family: san-serif, Helvetica;
+color: #0e0e0e;
+font-size:15pt;
+line-height: 1.5;
+}
+
+details[open] .More-details{
+ background:White;
+ padding-left: 50px;
+ border-radius: 0 0 10px 10px;
+ -webkit-transition: all .5s;
+ -o-transition: all .5s;
+ transition: all .5s;
+
+}/END OF PARAGRAPH/
+
+::marker, summary::-webkit-details-marker {
+ color: #5584AC;
+ -webkit-transition: all .4s;
+ -o-transition: all .4s;
+ transition: all .4s;
+}
+
+details[open] > ::marker , details[open] > summary::-webkit-details-marker{
+ -webkit-transition: all .4s;
+ -o-transition: all .4s;
+ transition: all .4s;
+ color: #ecf9f2;
+ font-size: 25px;
+
+} /* Triangle END */
+
+
+
+/* NOTE:  --------------------------Go up Code */
+/* Created by Jhonatan David Alvarez Ordosgoitia */
+
+
+#arrow {
+    font-size: 98px;
+    position: fixed;
+    right: 20px;
+    bottom: -100px;
+    color: cornflowerblue;
+    transition: 0.5s;
+}
+
+#arrow:hover {
+    cursor: pointer;
+    color: #225372;
+    transition: 0.5s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+.jeziry-logo {
+  width: 250px;
+  border: solid white;
+}
+
+.b {
+  border: solid black;
+  border-radius: 20px;
+  height: 690px;
+  width: 500px;
+}
+
+p {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.Back {
+  width: 80px;
+  margin: 50px 0px 50px 50px;
+}
+
+.Black-Logo{
+  margin-left: 90px;
+}
+
+#searchbar {
+  padding: 15px;
+  font-size: 30px;
+  border-radius: 30px;
+  border: solid black 2px;
+  display: block;
+}
+
+input[type=text] {
+  width: 60%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+/* When the input field gets focus,
+        change its width to 100% */
+input[type=text]:focus {
+  width: 60%;
+}
+
+#list {
+  font-size: 1.5em;
+  display: block;
+}
+
+.animals {
+  padding: 10px 0px 50px 0px;
+  display: block;
+}
+
+
+
+/*             Copy - Right      And           Visitor        */
+
+.Copy_right{
+  margin-top: 300px;
+  margin-left: 40px;
+}
+
+.h1-Copy-right{
+  font-size: 30px;
+}
+
+a{
+  color: #5584AC;
+}
+
+h2{
+  word-spacing: 10px;
+}
+.text-container{
+  position: relative;
+  background-color: #5584AC;
+  color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 200px;
+}
